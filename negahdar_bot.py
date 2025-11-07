@@ -1,11 +1,3 @@
-"""
-NegahdarBot - Telegram Bot Runtime File
-"""
-
-\"\"\"NegahdarBot - Telethon bot configured to run on Railway (or any hosting that supports env vars)
-Usage: set environment variables (BOT_API_ID, BOT_API_HASH, BOT_TOKEN, ADMIN_ID, SOURCE_CHANNEL)
-Then run: python3 negahdar_bot.py
-\"\"\"
 import os
 import logging
 import sqlite3
