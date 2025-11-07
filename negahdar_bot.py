@@ -29,7 +29,7 @@ except KeyError as e:
     log.error("Missing required environment variable: %s", e)
     raise SystemExit("Set BOT_API_ID, BOT_API_HASH, BOT_TOKEN, ADMIN_ID in environment and restart.")
 
-DB_NAME = os.environ.get("DB_NAME", "negahdar.db")
+DB_NAME = os.environ.get("DB_NAME", "/tmp/negahdar.db")
 BOT_NAME = os.environ.get("BOT_NAME", "NegahdarBot")
 START_MESSAGE = ("سلام 👋 — خوش اومدی به نگهدار!\\n"
                  "برای دیدن یک پست، کد عددی اون رو اینجا بفرست یا روی لینک deep-link کلیک کن.\\n"
